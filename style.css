@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'jogo';
+    src: url('fonte/joystix\ monospace.otf') format('opentype');
+}
+
+html, body{
+    min-height: 100vh;
+    padding: 15px;
+    font-family: 'jogo';
+}
+header{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-image: linear-gradient(blue, red);
+}
+section{
+    background-size: 100% 100%;
+    margin-top: 10px;
+
+}
+section#foto1{
+    background-image: url('imagens/mario.jpg');
+    opacity: 0.8;
+    height: 500px;
+    background-size:cover;
+    background-attachment: fixed;
+
+    
+
+}
+section#foto2{
+    background-image: url('imagens/kong.jpg');
+    opacity: 0.9;
+    height: 500px;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    background-attachment: fixed;
+}
+section, p{
+    padding: 5px;
+}
+
+h2{
+    padding-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-image: linear-gradient(blue, red);
+    margin-top: 10px;
+}
+
